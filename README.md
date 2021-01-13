@@ -1,4 +1,4 @@
-# CS6240-Social Network User Interaction
+# Social Network User Interaction - Hadoop MapReduce
 
 ## Project Overview:
 1. Problem Statement
