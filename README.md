@@ -1,5 +1,13 @@
-# CS6240-MR Project
+# CS6240-Social Network User Interaction
 
+## Project Overview:
+1. Problem Statement
+We as a team want to verify that given any user “A”, how fast can he/she communicate with other users in a given social network.
+“A” can directly communicate with another user “B” or via other user(s). The vital aspect of this situation is - which interaction happens the fastest/quickest, i.e., which interaction takes the shortest time of completion (assuming that each interaction happening in this social network is of equal length, for instance: we can assume that every user interacting with one another passes over information of comparable size). This is implemented using Single Source Shortest Path Algorithm.
+We further want to learn the Circle of all reachable nodes from a given node and fastest reachable nodes from that given node i.e., for every node “k” in a graph, we can get the circle of nodes influenced by node k using any threshold. To solve problems like this, we are trying to implement All Pairs Shortest Path Algorithm.
+
+2. Goal
+Our goal is to learn and implement Dijkstra’s algorithm (in a way such that it is suitable for parallel processing of data): implying that we have used Breadth First Search (BFS) for computing Single source shortest path in a given social network and implement map reduce algorithm to find All-pairs shortest path.
 
 Fall 2020
 
